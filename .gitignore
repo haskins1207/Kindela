@@ -7,3 +7,6 @@ dev.log
 
 # Local Claude Code preview config (not needed for deploy)
 .claude/
+
+# Local Netlify CLI state
+.netlify/
