@@ -80,9 +80,25 @@ export default function WalkthroughForm({ onDone }) {
     }
     setStatus('submitting')
     try {
-      // CRM integration point: POST `values` to HubSpot/Salesforce here.
-      console.log('[Kindela] Walkthrough request:', values)
-      await new Promise((r) => setTimeout(r, 1100))
+      // Netlify Forms: POST url-encoded data to the site root. Netlify detects
+      // the form via the hidden static <form name="walkthrough"> in index.html.
+      const body = new URLSearchParams({
+        'form-name': 'walkthrough',
+        'bot-field': '', // honeypot — real users leave this empty
+        fullName: values.fullName,
+        email: values.email,
+        orgName: values.orgName,
+        orgSize: values.orgSize,
+        role: values.role,
+        message: values.message,
+        consent: values.consent ? 'yes' : 'no',
+      })
+      const res = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: body.toString(),
+      })
+      if (!res.ok) throw new Error(`Form submit failed: ${res.status}`)
       setStatus('success')
     } catch {
       setStatus('error')
