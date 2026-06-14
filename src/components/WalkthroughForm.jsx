@@ -81,7 +81,7 @@ export default function WalkthroughForm({ onDone }) {
     setStatus('submitting')
     try {
       // CRM integration point: POST `values` to HubSpot/Salesforce here.
-      console.log('[Civora] Walkthrough request:', values)
+      console.log('[Kindela] Walkthrough request:', values)
       await new Promise((r) => setTimeout(r, 1100))
       setStatus('success')
     } catch {
@@ -96,7 +96,7 @@ export default function WalkthroughForm({ onDone }) {
         <span className="wt-success__icon"><Icon name="check" size={32} stroke="#fff" /></span>
         <h2 id="wt-title" className="wt-title">You’re all set, {firstName}.</h2>
         <p className="wt-sub">
-          Thanks for reaching out. A real person from Civora will email <strong>{values.email}</strong> within
+          Thanks for reaching out. A real person from Kindela will email <strong>{values.email}</strong> within
           one business day to set up your walkthrough — on your schedule, no script.
         </p>
         <button type="button" className="btn btn-primary" onClick={onDone}>Done</button>
@@ -209,7 +209,7 @@ export default function WalkthroughForm({ onDone }) {
           onBlur={() => handleBlur('consent')}
           aria-invalid={!!errors.consent}
         />
-        <span>It’s okay to email me about my walkthrough and Civora updates. I can opt out anytime.</span>
+        <span>It’s okay to email me about my walkthrough and Kindela updates. I can opt out anytime.</span>
       </label>
       {errors.consent && <span className="wt-error wt-error--consent">{errors.consent}</span>}
 
@@ -224,7 +224,7 @@ export default function WalkthroughForm({ onDone }) {
       </button>
 
       <p className="wt-privacy">
-        We’ll only use this to contact you about Civora — never sold, never spammed.{' '}
+        We’ll only use this to contact you about Kindela — never sold, never spammed.{' '}
         <a href="#top">Privacy Policy</a>.
       </p>
     </form>

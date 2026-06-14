@@ -1,6 +1,6 @@
 """Static file server tuned for the Claude preview proxy.
 
-Serving the Civora production build for preview has three gotchas, all handled here:
+Serving the Kindela production build for preview has three gotchas, all handled here:
 
 1. CORS — ES module scripts are fetched in CORS mode against the proxy origin.
    Without Access-Control-Allow-Origin the browser blocks the bundle

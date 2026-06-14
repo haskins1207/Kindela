@@ -43,7 +43,7 @@ export default function SocialProof() {
             <span className="case__label">When an org needs all of it</span>
             <p className="case__org">A children’s-mission nonprofit running the full suite — donors, grants, fund accounting, a resale store, and outbound granting to two partner orgs (~$600K budget).</p>
             <blockquote className="case__quote">
-              “We were holding the whole operation together with spreadsheets and prayer. Civora gave us
+              “We were holding the whole operation together with spreadsheets and prayer. Kindela gave us
               one place for everything — and a public page our funders actually trust.”
             </blockquote>
             <p className="case__attr">Executive Director · children’s-mission nonprofit</p>

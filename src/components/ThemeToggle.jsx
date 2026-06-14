@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Icon from './Icon'
 
-const STORAGE_KEY = 'civora-theme'
+const STORAGE_KEY = 'kindela-theme'
 
 // Initial theme is set by the inline script in index.html (no flash of wrong
 // theme). Here we just read what it decided and keep it in sync.

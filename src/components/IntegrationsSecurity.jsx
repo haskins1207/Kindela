@@ -26,7 +26,7 @@ export default function IntegrationsSecurity() {
           <span className="eyebrow">Plays well with others</span>
           <h2>Works with the tools you already trust.</h2>
           <p>
-            Connect what you’ve already got — Civora pulls it into one source of truth.
+            Connect what you’ve already got — Kindela pulls it into one source of truth.
             No rip-and-replace, no starting over.
           </p>
 
@@ -65,14 +65,14 @@ export default function IntegrationsSecurity() {
           <div className="intsec__badges">
             {COMPLIANCE.map((badge) => (
               <span key={badge} className="intsec__badge">
-                <Icon name="shield" size={18} stroke="var(--civora-teal)" />
+                <Icon name="shield" size={18} stroke="var(--kindela-teal)" />
                 {badge}
               </span>
             ))}
           </div>
 
           <p className="intsec__note">
-            Security practices are core to Civora’s design. Compliance certifications shown reflect
+            Security practices are core to Kindela’s design. Compliance certifications shown reflect
             our roadmap — we publish what we’ve earned, nothing we haven’t.
           </p>
 

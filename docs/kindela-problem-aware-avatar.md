@@ -1,6 +1,6 @@
-# Civora — Problem Aware Customer Avatar
+# Kindela — Problem Aware Customer Avatar
 
-**Product context:** Civora — the operating system for mission-driven nonprofits, combining donor and grant tracking (inbound and outbound), donated-goods inventory, fund accounting, volunteer management, and public transparency. *Every donation, grant, and good — connected and visible.*
+**Product context:** Kindela — the operating system for mission-driven nonprofits, combining donor and grant tracking (inbound and outbound), donated-goods inventory, fund accounting, volunteer management, and public transparency. *Every donation, grant, and good — connected and visible.*
 
 **Framework:** Eugene Schwartz's Stages of Market Awareness (*Breakthrough Advertising*). This document covers the **Problem Aware** stage only.
 

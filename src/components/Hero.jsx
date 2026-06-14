@@ -1,7 +1,7 @@
 import DashboardPreview from './DashboardPreview'
 import Icon from './Icon'
 
-// The three sharpest, most defensible differentiators (from civora-differentiators.md).
+// The three sharpest, most defensible differentiators (from kindela-differentiators.md).
 const DIFFERENTIATORS = [
   'Trace every donated good — to a resale sale or a partner org',
   'A resale POS and books that reconcile, in one system',
@@ -41,7 +41,7 @@ export default function Hero() {
           <ul className="hero__diff">
             {DIFFERENTIATORS.map((d) => (
               <li key={d}>
-                <Icon name="check" size={16} stroke="var(--civora-teal)" />
+                <Icon name="check" size={16} stroke="var(--kindela-teal)" />
                 {d}
               </li>
             ))}

@@ -109,7 +109,7 @@ export default function Pricing() {
               <ul className="tier__features">
                 {t.features.map((f) => (
                   <li key={f}>
-                    <Icon name="check" size={18} stroke="var(--civora-teal)" />
+                    <Icon name="check" size={18} stroke="var(--kindela-teal)" />
                     {f}
                   </li>
                 ))}

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* ===== Civora Design Tokens (from civora-brand-design-system.md) ===== */
+/* ===== Kindela Design Tokens (from kindela-brand-design-system.md) ===== */
 :root {
   /* Primary palette (extracted from the gradient) */
   --deep-indigo: #141B4D; /* Trust */
   --civic-blue: #243A8E;  /* Authority */
   --signal-blue: #1E6FB0; /* Connection */
-  --civora-teal: #2A9D8F; /* Clarity */
+  --kindela-teal: #2A9D8F; /* Clarity */
   --bright-teal: #4FB59A; /* Vitality */
   --beacon-amber: #F2B14C;/* Optimism */
 
@@ -215,8 +215,8 @@ ul {
 
 .btn-secondary {
   background: transparent;
-  border: 2px solid var(--civora-teal);
-  color: var(--civora-teal);
+  border: 2px solid var(--kindela-teal);
+  color: var(--kindela-teal);
 }
 .btn-secondary:hover { background: rgba(42, 157, 143, 0.1); }
 
@@ -235,7 +235,7 @@ ul {
 .btn-block { width: 100%; }
 
 :focus-visible {
-  outline: 2px solid var(--civora-teal);
+  outline: 2px solid var(--kindela-teal);
   outline-offset: 2px;
   border-radius: 4px;
 }

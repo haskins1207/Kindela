@@ -1,5 +1,5 @@
 /* ============================================================
-   Civora landing page — section styles
+   Kindela landing page — section styles
    ============================================================ */
 
 /* ===== Navigation ===== */
@@ -472,7 +472,7 @@
   mask-composite: exclude;
   pointer-events: none;
 }
-.uvp svg { color: var(--civora-teal); flex-shrink: 0; margin-top: 2px; }
+.uvp svg { color: var(--kindela-teal); flex-shrink: 0; margin-top: 2px; }
 .uvp p { font-size: 0.98rem; color: var(--ink); }
 
 /* Before / After */
@@ -516,7 +516,7 @@
   color: var(--slate);
   margin-bottom: 16px;
 }
-.ba__tag--after { color: var(--civora-teal); }
+.ba__tag--after { color: var(--kindela-teal); }
 .ba__tabs {
   display: flex;
   flex-wrap: wrap;
@@ -569,7 +569,7 @@
   width: 54px; height: 54px;
   border-radius: var(--radius-md);
   background: rgba(42, 157, 143, 0.1);
-  color: var(--civora-teal);
+  color: var(--kindela-teal);
   margin-bottom: 18px;
 }
 .feature__text h3 { font-size: clamp(1.4rem, 2.6vw, 1.75rem); color: var(--ink); }
@@ -612,12 +612,12 @@
   border: 2px solid var(--deep-indigo);
   color: var(--deep-indigo);
 }
-.fv__node--teal { border-color: var(--civora-teal); color: var(--civora-teal); }
+.fv__node--teal { border-color: var(--kindela-teal); color: var(--kindela-teal); }
 .fv__node--green { border-color: var(--success); color: var(--success); }
 .fv__beam {
   flex: 0.5;
   height: 2px;
-  background: var(--civora-teal);
+  background: var(--kindela-teal);
   position: relative;
   overflow: hidden;
   border-radius: 2px;
@@ -652,7 +652,7 @@
 }
 .fv__pill--info { background: rgba(45,125,210,0.14); color: var(--info); }
 .fv__pill--warning { background: rgba(232,163,23,0.16); color: #b97e0a; }
-.fv__pill--teal { background: rgba(42,157,143,0.14); color: var(--civora-teal); }
+.fv__pill--teal { background: rgba(42,157,143,0.14); color: var(--kindela-teal); }
 .fv__pill--success { background: rgba(46,158,91,0.14); color: var(--success); }
 .fv--ledger { display: flex; flex-direction: column; gap: 10px; }
 .fv__fund {
@@ -737,17 +737,17 @@
   margin-top: 3px;
   font-weight: 500;
 }
-/* Civora column highlight */
-.compare__col--civora,
-.compare__td--civora {
+/* Kindela column highlight */
+.compare__col--kindela,
+.compare__td--kindela {
   background: rgba(42, 157, 143, 0.07);
 }
-.compare__col--civora {
+.compare__col--kindela {
   border-top: 3px solid transparent;
   border-image: var(--brand-gradient) 1;
   border-radius: 0;
 }
-.compare__col--civora .compare__col-name { color: var(--civora-teal); }
+.compare__col--kindela .compare__col-name { color: var(--kindela-teal); }
 
 .cmp-cell {
   display: inline-flex;
@@ -757,7 +757,7 @@
   height: 30px;
   border-radius: var(--radius-full);
 }
-.cmp-yes { color: var(--civora-teal); background: rgba(42, 157, 143, 0.12); }
+.cmp-yes { color: var(--kindela-teal); background: rgba(42, 157, 143, 0.12); }
 .cmp-partial { color: var(--warning); background: rgba(232, 163, 23, 0.14); }
 .cmp-no { color: var(--slate); opacity: 0.5; }
 
@@ -826,7 +826,7 @@
   width: 100%;
   height: 6px;
   border-radius: var(--radius-full);
-  background: linear-gradient(90deg, var(--signal-blue), var(--civora-teal));
+  background: linear-gradient(90deg, var(--signal-blue), var(--kindela-teal));
   appearance: none;
   -webkit-appearance: none;
   outline-offset: 4px;
@@ -836,7 +836,7 @@
   width: 22px; height: 22px;
   border-radius: 50%;
   background: var(--surface);
-  border: 3px solid var(--civora-teal);
+  border: 3px solid var(--kindela-teal);
   box-shadow: 0 2px 6px rgba(20,27,77,0.2);
   cursor: pointer;
 }
@@ -844,7 +844,7 @@
   width: 22px; height: 22px;
   border-radius: 50%;
   background: var(--surface);
-  border: 3px solid var(--civora-teal);
+  border: 3px solid var(--kindela-teal);
   cursor: pointer;
 }
 .calc input[type='number'] {
@@ -856,7 +856,7 @@
   font-size: 1rem;
   color: var(--ink);
 }
-.calc input[type='number']:focus { border-color: var(--civora-teal); outline: none; box-shadow: 0 0 0 3px rgba(42,157,143,0.18); }
+.calc input[type='number']:focus { border-color: var(--kindela-teal); outline: none; box-shadow: 0 0 0 3px rgba(42,157,143,0.18); }
 .calc__money-input { position: relative; }
 .calc__money-input span {
   position: absolute;
@@ -932,7 +932,7 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--civora-teal);
+  color: var(--kindela-teal);
 }
 .case__org { margin-top: 10px; font-size: 0.95rem; color: var(--slate); }
 .case__quote {
@@ -984,7 +984,7 @@
   align-self: flex-start;
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--civora-teal);
+  color: var(--kindela-teal);
   background: rgba(42,157,143,0.1);
   padding: 6px 12px;
   border-radius: var(--radius-full);
@@ -1120,7 +1120,7 @@
   background: var(--surface);
   overflow: hidden;
 }
-.faq__item.is-open { border-color: var(--civora-teal); }
+.faq__item.is-open { border-color: var(--kindela-teal); }
 .faq__q {
   width: 100%;
   display: flex;
@@ -1133,7 +1133,7 @@
   color: var(--ink);
   text-align: left;
 }
-.faq__sign { font-size: 1.3rem; color: var(--civora-teal); line-height: 1; }
+.faq__sign { font-size: 1.3rem; color: var(--kindela-teal); line-height: 1; }
 .faq__a { padding: 0 22px 20px; color: var(--slate); font-size: 0.95rem; }
 
 /* ===== Integrations & Security ===== */
@@ -1573,7 +1573,7 @@
   transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 .vd-chapter:hover { transform: translateY(-2px); box-shadow: var(--shadow-card); }
-.vd-chapter.is-current { border-color: var(--civora-teal); box-shadow: 0 0 0 2px rgba(42, 157, 143, 0.18); }
+.vd-chapter.is-current { border-color: var(--kindela-teal); box-shadow: 0 0 0 2px rgba(42, 157, 143, 0.18); }
 .vd-chapter__time { display: block; font-size: 0.72rem; font-weight: 700; color: var(--signal-blue); font-variant-numeric: tabular-nums; }
 .vd-chapter__t { display: block; font-size: 0.92rem; font-weight: 600; color: var(--ink); margin-top: 3px; }
 
@@ -1655,7 +1655,7 @@
 .wt-field select:focus,
 .wt-field textarea:focus {
   outline: none;
-  border-color: var(--civora-teal);
+  border-color: var(--kindela-teal);
   box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.18);
 }
 .wt-field input.invalid,
@@ -1690,7 +1690,7 @@
   height: 18px;
   margin-top: 1px;
   flex-shrink: 0;
-  accent-color: var(--civora-teal);
+  accent-color: var(--kindela-teal);
   cursor: pointer;
 }
 .wt-consent.invalid span { color: var(--error); }

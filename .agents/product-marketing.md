@@ -1,11 +1,11 @@
 # Product Marketing Context
 
 *Last updated: 2026-06-14*
-*Source: civora-landing-page-prd.md, civora-brand-design-system.md, civora-problem-aware-avatar.md*
+*Source: kindela-landing-page-prd.md, kindela-brand-design-system.md, kindela-problem-aware-avatar.md*
 
 ## Product Overview
-**One-liner:** Civora — the operating system for mission-driven nonprofits. *Every donation, grant, and good — connected and visible.*
-**What it does:** Civora unifies donor & grant tracking (inbound *and* outbound), donated-goods inventory, fund accounting, and volunteer management into one source of truth — then turns that truth outward through a public transparency layer that lets donors and the public verify exactly where money and goods go.
+**One-liner:** Kindela — the operating system for mission-driven nonprofits. *Every donation, grant, and good — connected and visible.*
+**What it does:** Kindela unifies donor & grant tracking (inbound *and* outbound), donated-goods inventory, fund accounting, and volunteer management into one source of truth — then turns that truth outward through a public transparency layer that lets donors and the public verify exactly where money and goods go.
 **Product category:** Nonprofit operations software / all-in-one nonprofit management platform. Customers search across several "shelves" because no single category contains the whole need: donor management/CRM, nonprofit (fund) accounting, resale/thrift POS, volunteer management, and impact/transparency reporting.
 **Product type:** Vertical B2B SaaS (purpose-built for nonprofits).
 **Business model:** Tiered, nonprofit-friendly subscription with a genuine free trial and migration help. Starter (~$39–49/mo, small teams getting organized) → Growth (~$119–149/mo, most-chosen, full suite) → Network (custom, larger/multi-program). Annual discount ~20%. No credit card to start.
@@ -43,7 +43,7 @@
 **Emotional tension:** Overwhelm, financial/compliance anxiety, and a gnawing fear of being "one mistake away from a crisis that hurts the kids she serves."
 
 ## Competitive Landscape
-*(Deep profiles live in `Civora/civora-competitive-landscape.md`; SWOT in `Civora/civora-swot.md`.)*
+*(Deep profiles live in `Kindela/kindela-competitive-landscape.md`; SWOT in `Kindela/kindela-swot.md`.)*
 **Direct (all-in-one nonprofit platforms):** Bloomerang, Neon One, Keela, Blackbaud (Raiser's Edge NXT), Salesforce Nonprofit Cloud — broad nonprofit management, but generally no resale/thrift POS, no donated-goods routing to partner orgs, and limited public-facing verifiable transparency; enterprise options are costly/complex.
 **Secondary (point tools the patchwork is made of):** QuickBooks / QB for Nonprofits (accounting); DonorPerfect, Little Green Light (donor CRM); Square, Lightspeed, KORONA POS, Epos Now (generic POS); ThriftCart, ConsignPro, SimpleConsign, Ricochet (resale/consignment POS); Zeffy (free fundraising); SignUpGenius (volunteers) — each solves one slice; none unify or connect them.
 **Indirect (status quo):** Excel, Google Sheets/Docs, and manual processes — free and familiar, but fragile, unconnected, and impossible to audit or publish credibly.
@@ -99,7 +99,7 @@
 **Personality:** Connected, Transparent, Trustworthy, Modern, Capable (civic, clarity-driven).
 
 ## Proof Points
-*(All metrics/logos/testimonials are placeholders until verified — the page must hold itself to Civora's own transparency standard: no inflated numbers, no unearned badges, no fabricated testimonials.)*
+*(All metrics/logos/testimonials are placeholders until verified — the page must hold itself to Kindela's own transparency standard: no inflated numbers, no unearned badges, no fabricated testimonials.)*
 **Metrics:** (illustrative) 5 tools → 1 platform; ~9 hrs/week saved; first clean audit in years.
 **Customers:** Children's Collective of Florida (full-suite reference). Span of fit: food banks, arts nonprofits, animal rescues with resale shops, children's-mission resale orgs.
 **Value themes:**

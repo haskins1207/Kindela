@@ -39,7 +39,7 @@ export default function Footer() {
 
           <div className="footer__social" aria-label="Social links">
             {['in', 'X', 'f', '▶'].map((s) => (
-              <a key={s} href="#top" className="footer__social-link" aria-label={`Civora on ${s}`}>{s}</a>
+              <a key={s} href="#top" className="footer__social-link" aria-label={`Kindela on ${s}`}>{s}</a>
             ))}
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Footer() {
       </div>
 
       <div className="container footer__bottom">
-        <span>© 2026 Civora. All rights reserved.</span>
+        <span>© 2026 Kindela. All rights reserved.</span>
         <span>The operating system for mission-driven nonprofits.</span>
       </div>
     </footer>

@@ -1,6 +1,6 @@
 # The Diary of Kari Whitfield
 
-*Journal entries from the perspective of Civora's Problem Aware avatar, across three moments: before using the product, during first use, and after.*
+*Journal entries from the perspective of Kindela's Problem Aware avatar, across three moments: before using the product, during first use, and after.*
 
 ---
 

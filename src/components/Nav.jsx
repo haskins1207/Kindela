@@ -24,7 +24,7 @@ export default function Nav() {
   return (
     <header className={`nav ${scrolled ? 'nav--solid' : ''}`}>
       <div className="container nav__inner">
-        <a className="nav__brand" href="#top" aria-label="Civora home">
+        <a className="nav__brand" href="#top" aria-label="Kindela home">
           <Logo />
         </a>
 

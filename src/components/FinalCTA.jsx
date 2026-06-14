@@ -7,7 +7,7 @@ export default function FinalCTA() {
         <Reveal className="final__inner">
           <h2 className="final__title">Get your time back. Give it to the mission.</h2>
           <p className="final__sub">
-            Join the mission-driven teams using Civora to connect everything, show everyone, and pour
+            Join the mission-driven teams using Kindela to connect everything, show everyone, and pour
             their hours back into the children they serve. Start free — no credit card, and we’ll help
             you move your data.
           </p>

@@ -1,7 +1,7 @@
-# Product Requirements Document — Civora Marketing Landing Page
+# Product Requirements Document — Kindela Marketing Landing Page
 
 **Document type:** B2B SaaS Landing Page PRD
-**Product:** Civora — the operating system for mission-driven nonprofits
+**Product:** Kindela — the operating system for mission-driven nonprofits
 **Tagline:** *Every donation, grant, and good — connected and visible.*
 **Date:** June 13, 2026
 **Owner:** Growth / Web
@@ -11,9 +11,9 @@
 
 ## Executive Overview
 
-**Product:** Civora is an all-in-one platform that unifies donor and grant tracking (inbound *and* outbound), donated-goods inventory, fund accounting, and volunteer management into a single source of truth — then turns that truth outward through a public transparency layer that lets donors and the public verify exactly where money and goods go.
+**Product:** Kindela is an all-in-one platform that unifies donor and grant tracking (inbound *and* outbound), donated-goods inventory, fund accounting, and volunteer management into a single source of truth — then turns that truth outward through a public transparency layer that lets donors and the public verify exactly where money and goods go.
 
-**Purpose of this page:** Convert overwhelmed nonprofit leaders — from small thrift-store operations to mid-and-large children's-mission organizations — by naming their daily pain with precision, proving Civora consolidates the five disconnected tools they currently duct-tape together, and demonstrating tangible time-and-money savings. The page sells *relief and trust*, not features.
+**Purpose of this page:** Convert overwhelmed nonprofit leaders — from small thrift-store operations to mid-and-large children's-mission organizations — by naming their daily pain with precision, proving Kindela consolidates the five disconnected tools they currently duct-tape together, and demonstrating tangible time-and-money savings. The page sells *relief and trust*, not features.
 
 **Primary audience (the avatar):** "Kari Whitfield" — Executive Director / President of a children-focused nonprofit with a resale program. Mission-driven, budget-sensitive, risk-averse, chronically over-committed, and quietly afraid of being exposed as disorganized in front of her board or funders. She decides at 11 p.m. at the kitchen table, trusts peer EDs far more than sales reps, and needs to believe the product was built for *someone exactly like her*.
 
@@ -21,10 +21,10 @@
 
 ---
 
-## Brand Anchors (from the Civora Brand & Design System)
+## Brand Anchors (from the Kindela Brand & Design System)
 
 - **Gradient (brand identity):** `linear-gradient(135deg, #141B4D 0%, #243A8E 24%, #1E6FB0 46%, #2A9D8F 64%, #4FB59A 80%, #F2B14C 100%)` — deep indigo through civic teal into beacon amber, representing many disconnected inputs resolving into one connected view. Used on hero, primary CTAs, the logo mark, and brand moments.
-- **Primary colors:** Deep Indigo `#141B4D` (Trust), Civic Blue `#243A8E` (Authority), Signal Blue `#1E6FB0` (Connection), Civora Teal `#2A9D8F` (Clarity), Bright Teal `#4FB59A` (Vitality), Beacon Amber `#F2B14C` (Optimism).
+- **Primary colors:** Deep Indigo `#141B4D` (Trust), Civic Blue `#243A8E` (Authority), Signal Blue `#1E6FB0` (Connection), Kindela Teal `#2A9D8F` (Clarity), Bright Teal `#4FB59A` (Vitality), Beacon Amber `#F2B14C` (Optimism).
 - **Neutrals:** Dark Blue text `#13293D`, Medium Gray `#5A6B7B`, Light Gray bg `#F2F5F8`, White `#FFFFFF`, Black `#0A0E12`.
 - **Functional:** Success `#2E9E5B`, Warning `#E8A317`, Error `#D64545`, Info `#2D7DD2`.
 - **Type:** Inter (UI/body), Space Grotesk (headlines & brand moments).
@@ -37,7 +37,7 @@
 ### 1. Navigation Bar
 
 - **Position:** Fixed/sticky; transparent over the hero, solidifying to White with a hairline border after scroll.
-- **Logo:** Left-aligned Civora mark (the gradient connection mark + wordmark in Space Grotesk), clickable to home.
+- **Logo:** Left-aligned Kindela mark (the gradient connection mark + wordmark in Space Grotesk), clickable to home.
 - **Primary links:** Platform, How It Works, Transparency, Pricing, Nonprofits We Serve.
 - **Secondary actions:** "Request a Walkthrough" (primary CTA, gradient fill), "Sign In" (text link).
 - **Behavior:** Desktop horizontal nav; mobile hamburger with slide-out drawer.
@@ -49,13 +49,13 @@
 - **Layout:** Two-column 60/40 — copy left, product visual right. Stacks at 1024px.
 - **Pre-headline badge:** Pill-shaped, gradient-bordered, with a small light icon — *"Built for nonprofit resale teams — not retail, not enterprise."*
 - **Headline (H1, 60–80 chars):** *"Stop running your mission on six systems that don't talk."* (Alternates for A/B in §Conversion.)
-- **Subheadline (150–200 chars):** "Civora unifies donors, grants, donated-goods inventory, accounting, and volunteers in one place — and shows the public exactly where every dollar and every coat goes."
+- **Subheadline (150–200 chars):** "Kindela unifies donors, grants, donated-goods inventory, accounting, and volunteers in one place — and shows the public exactly where every dollar and every coat goes."
 - **Trust indicator bar:** 5–7 grayscale nonprofit/partner logos (hover to color) with the line *"Trusted by mission-driven resale teams."*
 - **Dual CTA:**
   - Primary: "Request a Walkthrough" (gradient button).
   - Secondary: "See How It Works" (ghost/outline button → demo video §10).
   - Micro-copy: *"Free consultation • No credit card • Built-in nonprofit pricing."*
-- **Visual:** The Civora dashboard in context — the live "Good evening, Kari" view with count-up stat cards and the **Donation-to-Destination Tracer** animating (15–20s loop). Overlay UI chips show "May reconciliation balanced ✓" and "504 goods placed with children." Min 800×600px, retina-optimized, results trending up.
+- **Visual:** The Kindela dashboard in context — the live "Good evening, Kari" view with count-up stat cards and the **Donation-to-Destination Tracer** animating (15–20s loop). Overlay UI chips show "May reconciliation balanced ✓" and "504 goods placed with children." Min 800×600px, retina-optimized, results trending up.
 - **Specs:** Section min-height 90vh; background subtle gradient wash; CTA touch targets ≥48px.
 
 ### 3. Problem / Pain Point Section
@@ -71,14 +71,14 @@
 
 ### 4. Solution Positioning Section
 
-- **Purpose:** Position Civora as the comprehensive answer — the moment the patchwork resolves into one connected system.
+- **Purpose:** Position Kindela as the comprehensive answer — the moment the patchwork resolves into one connected system.
 - **Headline:** *"One source of truth — and a window the whole community can see through."*
 - **Solution narrative (3 short paragraphs):**
   1. *Bridge:* The problem was never that you weren't capable — it was that your tools never connected, so you carried the whole picture in your head, alone.
-  2. *Approach:* Civora connects every river — donations in, goods out, dollars tracked, hours logged — so entering something once means it's right everywhere.
+  2. *Approach:* Kindela connects every river — donations in, goods out, dollars tracked, hours logged — so entering something once means it's right everywhere.
   3. *Outcome:* Walk into the board meeting prepared. Hand a funder a clean report in seconds. Stop carrying the stress home.
-- **Visual proof — Before/After transformation:** Left = cluttered "six tabs" manual workflow (muted, gray). Right = one calm Civora dashboard (brand color, gradient accent). Animated fade between states on scroll.
-- **UVP callout box (gradient border):** *"Unlike a retail POS or a generic CRM, Civora understands in-kind donations, restricted vs. unrestricted funds, and routing goods to partner nonprofits — and proves it to the public."*
+- **Visual proof — Before/After transformation:** Left = cluttered "six tabs" manual workflow (muted, gray). Right = one calm Kindela dashboard (brand color, gradient accent). Animated fade between states on scroll.
+- **UVP callout box (gradient border):** *"Unlike a retail POS or a generic CRM, Kindela understands in-kind donations, restricted vs. unrestricted funds, and routing goods to partner nonprofits — and proves it to the public."*
 - **Specs:** Centered, max-width 1200px; visual 60% desktop / full mobile; fade-in on scroll; clean minimal background.
 
 ### 5. Features & Benefits Section
@@ -121,7 +121,7 @@
 - **Calculation logic (illustrative):**
   ```javascript
   const calculateSavings = (monthlySpend, adminHours, staffCount, hourlyCost) => {
-    // Civora consolidates tools; assume ~55% reduction in tool spend
+    // Kindela consolidates tools; assume ~55% reduction in tool spend
     const annualToolSavings = monthlySpend * 12 * 0.55;
     // ~60% of manual admin time recovered via single source of truth
     const recoveredHours = adminHours * 0.6 * 52;
@@ -134,7 +134,7 @@
     };
   };
   ```
-- **Output:** Large headline figure (48–60px, Beacon Amber accent) = total annual value; breakdown of (1) tool-spend saved, (2) staff hours recovered, (3) dollar value of time. Bar visualization comparing "today" vs "with Civora." Results animate on calculation.
+- **Output:** Large headline figure (48–60px, Beacon Amber accent) = total annual value; breakdown of (1) tool-spend saved, (2) staff hours recovered, (3) dollar value of time. Bar visualization comparing "today" vs "with Kindela." Results animate on calculation.
 - **CTA:** "Email me my savings summary" (lead capture — name, work email, org name, role).
 - **Specs:** Centered, max-width 900px; card with subtle shadow + border; React component, real-time updates, input validation, sensible defaults; mobile inputs stack vertically.
 - **Tone guard:** Frame as *opportunity recovered*, never pressure. No false scarcity — Kari distrusts hard sells.
@@ -169,7 +169,7 @@
 ### 10. Demo / Video Section
 
 - **Purpose:** Low-pressure self-serve walkthrough for the ED who isn't ready to talk to a human at 11 p.m.
-- **Headline:** *"See Civora in action — in under four minutes."*
+- **Headline:** *"See Kindela in action — in under four minutes."*
 - **Video:** 16:9, max-width 900px centered; professional thumbnail of the dashboard with play overlay; 2–4 min tour following the three pains → three reliefs; captions/subtitles; autoplay off; lazy-loaded.
 - **Context:** Brief description + timestamps (Donors, Grants, Tracer, Transparency). "Skip to a personalized walkthrough" link for the convinced.
 - **Secondary CTA:** *"Ready to see it with your own data? Request a walkthrough."*
@@ -178,15 +178,15 @@
 
 - **Purpose:** Strong, warm conversion push for scrollers who've completed the arc.
 - **Headline:** *"Connect everything. Show everyone."*
-- **Supporting text:** "Join the mission-driven teams using Civora to prove their impact and give their time back to the children they serve. Start free — no credit card, and we'll help you move your data."
+- **Supporting text:** "Join the mission-driven teams using Kindela to prove their impact and give their time back to the children they serve. Start free — no credit card, and we'll help you move your data."
 - **Dual CTAs:** Primary "Start Free Trial" (large gradient button, ≥60px height); Secondary "Request a Walkthrough" (ghost).
 - **Trust elements:** "30-day trial • No credit card • Cancel anytime • We migrate your data."
-- **Visual:** Full-width Civora gradient background resolving into beacon amber (the page ends on a confident, connected note). Centered, max-width 800px text, 150px vertical padding, fade-in on scroll.
+- **Visual:** Full-width Kindela gradient background resolving into beacon amber (the page ends on a confident, connected note). Centered, max-width 800px text, 150px vertical padding, fade-in on scroll.
 
 ### 12. Footer
 
 - **Structure:** 5-column, multi-group; dark Deep Indigo background for contrast.
-- **Column 1 — Company:** Civora logo, tagline ("Every donation, grant, and good — connected and visible."), social icons (LinkedIn, X, Facebook, YouTube), copyright.
+- **Column 1 — Company:** Kindela logo, tagline ("Every donation, grant, and good — connected and visible."), social icons (LinkedIn, X, Facebook, YouTube), copyright.
 - **Column 2 — Product:** Platform, Integrations, Pricing, Security, Changelog.
 - **Column 3 — Resources:** Blog, Case Studies, Help Center, Migration Guide, Webinars.
 - **Column 4 — Company:** About, Careers, Contact, Press Kit, Partners.
@@ -200,7 +200,7 @@
 
 ### Color Palette
 
-- **Primary brand:** Deep Indigo `#141B4D`, Civic Blue `#243A8E`, Signal Blue `#1E6FB0`, Civora Teal `#2A9D8F`, Bright Teal `#4FB59A`, Beacon Amber `#F2B14C`.
+- **Primary brand:** Deep Indigo `#141B4D`, Civic Blue `#243A8E`, Signal Blue `#1E6FB0`, Kindela Teal `#2A9D8F`, Bright Teal `#4FB59A`, Beacon Amber `#F2B14C`.
 - **Accent (CTAs/highlights):** the brand gradient; Beacon Amber `#F2B14C` for emphasis on dark.
 - **Neutrals (light mode):** Background `#FFFFFF`, surface tint `#F2F5F8`, text primary `#13293D`, text secondary `#5A6B7B`, borders `#E4EAF0`.
 - **Neutrals (dark mode):** Background `#0F1117`, text primary `#F5F5F5`, text secondary `#A0A0A0`, borders `#2A2A2A`.
@@ -276,7 +276,7 @@
 - Semantic HTML5; correct heading hierarchy (single H1); alt text; ARIA labels on the calculator, tracer, carousel, and toggle; full keyboard nav with visible 2px Teal focus rings; contrast ≥4.5:1 body / ≥3:1 large; screen-reader tested; reduced-motion honored.
 
 ### SEO
-- Title 50–60 chars (e.g., "Civora — One System for Nonprofit Resale Operations"); meta description 150–160; Open Graph + Twitter Card tags; JSON-LD for Organization, Product/SoftwareApplication, and FAQPage (pricing FAQ); clean H1–H6; XML sitemap; robots.txt; speed per above.
+- Title 50–60 chars (e.g., "Kindela — One System for Nonprofit Resale Operations"); meta description 150–160; Open Graph + Twitter Card tags; JSON-LD for Organization, Product/SoftwareApplication, and FAQPage (pricing FAQ); clean H1–H6; XML sitemap; robots.txt; speed per above.
 
 ### Analytics & Tracking
 - GA4. Events: each unique CTA click, walkthrough request, trial signup, pricing-tier selection, video play, savings-calculator interactions, form submissions, scroll depth (25/50/75/100%). Heatmaps (Hotjar or similar). A/B testing harness.
@@ -292,7 +292,7 @@
 
 ## Content Guidelines — Voice & Tone
 
-**Civora's voice on this page:** warm, reassuring, quietly confident — a peer who's been at that kitchen table. Empathy-first: name the pain in Kari's own words, then resolve it with concrete relief.
+**Kindela's voice on this page:** warm, reassuring, quietly confident — a peer who's been at that kitchen table. Empathy-first: name the pain in Kari's own words, then resolve it with concrete relief.
 
 **Copywriting principles**
 - Lead with relief and outcomes, not features ("Walk into the board meeting prepared" before "fund accounting module").
@@ -306,7 +306,7 @@
 2. "One source of truth for your donors, your goods, and your grants."
 3. "Show the world exactly where every dollar and every coat goes."
 
-**Feature example (benefit-led):** *"Donation-to-Destination Tracer — Stop guessing which donated goods were sold and which went to your partner orgs. Civora traces every item from the loading dock to its destination, so when a donor or auditor asks, you can show them. Every river, accounted for."*
+**Feature example (benefit-led):** *"Donation-to-Destination Tracer — Stop guessing which donated goods were sold and which went to your partner orgs. Kindela traces every item from the loading dock to its destination, so when a donor or auditor asks, you can show them. Every river, accounted for."*
 
 **CTA copy:** "Request a Walkthrough" · "See Your Savings" · "Start Your 30-Day Trial" — never bare "Demo / Submit / Sign Up."
 
@@ -337,7 +337,7 @@
 - [ ] Dark mode consistent
 
 ### Assets needed
-- Civora logo (SVG, light/dark)
+- Kindela logo (SVG, light/dark)
 - Dashboard screenshots (Donors, Grants, Tracer, Accounting, Transparency)
 - Partner/nonprofit logos (SVG, grayscale + color) — with permission
 - Compliance badges (only those genuinely held)
@@ -381,4 +381,4 @@
 
 ---
 
-*Note on claims and compliance: all statistics, certifications, customer counts, and logos in this PRD are placeholders to be replaced with verified data before launch. Given that Civora's entire value proposition is transparency and trust, the landing page must hold itself to the same standard — no inflated numbers, no unearned badges, no fabricated testimonials.*
+*Note on claims and compliance: all statistics, certifications, customer counts, and logos in this PRD are placeholders to be replaced with verified data before launch. Given that Kindela's entire value proposition is transparency and trust, the landing page must hold itself to the same standard — no inflated numbers, no unearned badges, no fabricated testimonials.*

@@ -3,7 +3,7 @@ import { useCountUp } from '../hooks/useCountUp'
 
 const FLOWS = [
   { good: '142 winter coats', dest: 'Resale floor', result: '$2,130 raised', color: 'var(--beacon-amber)' },
-  { good: '88 sneakers', dest: 'Haven House', result: 'Routed to kids', color: 'var(--civora-teal)' },
+  { good: '88 sneakers', dest: 'Haven House', result: 'Routed to kids', color: 'var(--kindela-teal)' },
   { good: '64 supply kits', dest: 'Sunrise Family', result: 'Routed to partner', color: 'var(--civic-blue)' },
 ]
 
@@ -29,7 +29,7 @@ export default function DashboardPreview() {
   const f = FLOWS[active]
 
   return (
-    <div className="dash" role="img" aria-label="Civora dashboard preview showing live stats and the Donation-to-Destination Tracer">
+    <div className="dash" role="img" aria-label="Kindela dashboard preview showing live stats and the Donation-to-Destination Tracer">
       <div className="dash__bar">
         <span className="dash__dot" /><span className="dash__dot" /><span className="dash__dot" />
         <span className="dash__title">Good evening, Kari</span>
@@ -39,7 +39,7 @@ export default function DashboardPreview() {
       <div className="dash__body">
         <div className="dash__stats">
           <MiniStat label="Earned revenue (YTD)" value={284500} prefix="$" sub="▲ 12% vs last year" accent="var(--beacon-amber)" />
-          <MiniStat label="Grants secured" value={213000} prefix="$" sub="3 in pipeline" accent="var(--civora-teal)" />
+          <MiniStat label="Grants secured" value={213000} prefix="$" sub="3 in pipeline" accent="var(--kindela-teal)" />
           <MiniStat label="Goods placed with children" value={504} sub="2 partner orgs" accent="var(--civic-blue)" />
         </div>
 

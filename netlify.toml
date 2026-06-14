@@ -1,4 +1,4 @@
-# Netlify deployment configuration for the Civora landing page (Vite + React SPA)
+# Netlify deployment configuration for the Kindela landing page (Vite + React SPA)
 [build]
   command = "npm run build"
   publish = "dist"

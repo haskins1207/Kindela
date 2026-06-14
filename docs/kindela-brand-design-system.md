@@ -1,6 +1,6 @@
-# Civora Brand Identity & Design System
+# Kindela Brand Identity & Design System
 
-> *Civora — the operating system for mission-driven nonprofits. Every donation, grant, and good — connected and visible.*
+> *Kindela — the operating system for mission-driven nonprofits. Every donation, grant, and good — connected and visible.*
 
 ---
 
@@ -9,25 +9,25 @@
 
 ### Brand Essence
 
-**Civora** comes from the civic root — *civis, civil, community* — fused into a single modern, coined name that signals a platform built for the social good. Where the old metaphors leaned on "light after darkness," Civora's identity is about **connection and visibility**: the moment the scattered systems of a nonprofit resolve into one clear, connected view. Distilled from the product's purpose (unify donors, grants, donated-goods inventory, accounting, and volunteers into one source of truth, then make that truth visible to the public) and from the avatar's core need (to be the confident, trusted leader of a well-run organization), the brand stands on seven attributes:
+**Kindela** comes from *kind* — warmth, generosity, and human care — softened by an open, approachable ending. It's a coined, modern name for a platform built for the people doing the kind work and the communities they serve: warm and human on the surface, capable and rigorous underneath. Kindela pairs that warmth with the product's promise of **connection and visibility**: the moment the scattered systems of a nonprofit resolve into one clear, connected view. Distilled from the product's purpose (unify donors, grants, donated-goods inventory, accounting, and volunteers into one source of truth, then make that truth visible to the public) and from the avatar's core need (to be the confident, trusted leader of a well-run organization), the brand stands on seven attributes:
 
 1. **Connected** — One operating system; every record, dollar, and good linked.
 2. **Transparent** — Visibility is the product. Anyone can see where things go.
 3. **Trustworthy** — Verifiable, audit-ready, accountable by design.
 4. **Modern** — A genuinely contemporary platform, not legacy nonprofit software.
 5. **Capable** — Enterprise-grade depth, accessible to a one-person shop.
-6. **Civic** — Rooted in community, mission, and the public good.
+6. **Kind** — Rooted in warmth, community, and genuine care for the people served.
 7. **Clarity** — Replaces chaos with a single, legible source of truth.
 
 ### Brand Voice
 
-- **Tone:** Confident, modern, and reassuring — a capable partner that has clearly been built for nonprofit operators. Civora speaks like a sharp peer who respects the operator's intelligence and time, never like legacy enterprise software or a hard-sell rep.
+- **Tone:** Confident, modern, and reassuring — a capable partner that has clearly been built for nonprofit operators. Kindela speaks like a sharp peer who respects the operator's intelligence and time, never like legacy enterprise software or a hard-sell rep.
 - **Language:** Clear, precise, and jargon-aware. It uses the operator's real vocabulary — *in-kind donations, restricted vs. unrestricted funds, impact reporting, outbound granting, wearing all the hats* — while keeping explanations clean and free of technical clutter.
-- **Communication Style:** Solution-oriented and outcome-first. Civora names the operational pain (five disconnected systems, the report that takes all night, the question a leader can't answer) and resolves it with concrete capability and proof. It leads with what the operator gains — connection, visibility, confidence — over feature lists.
+- **Communication Style:** Solution-oriented and outcome-first. Kindela names the operational pain (five disconnected systems, the report that takes all night, the question a leader can't answer) and resolves it with concrete capability and proof. It leads with what the operator gains — connection, visibility, confidence — over feature lists.
 
 ### Brand Narrative
 
-Mission-driven nonprofits run on a patchwork: a point-of-sale system over here, accounting software over there, a donor spreadsheet, a grants calendar, a volunteer sign-up sheet — none of them talking to each other. The people running these organizations, from small thrift-store operations to children's-mission teams that sell and route donated goods to partner nonprofits, spend their nights re-keying data and building reports by hand, unable to answer a simple question: *where did every dollar and every donated good actually go?* **Civora is the operating system that ends the patchwork.** It connects donors, grants (inbound and outbound), donated-goods inventory, fund accounting, and volunteers into one source of truth — and turns that truth outward through a public transparency layer that lets donors, funders, and the community verify impact in real time. Because when everything is connected, leaders get their time back; and when everything is visible, trust becomes the engine of funding. Civora makes the work connected, and the impact visible.
+Mission-driven nonprofits run on a patchwork: a point-of-sale system over here, accounting software over there, a donor spreadsheet, a grants calendar, a volunteer sign-up sheet — none of them talking to each other. The people running these organizations, from small thrift-store operations to children's-mission teams that sell and route donated goods to partner nonprofits, spend their nights re-keying data and building reports by hand, unable to answer a simple question: *where did every dollar and every donated good actually go?* **Kindela is the operating system that ends the patchwork.** It connects donors, grants (inbound and outbound), donated-goods inventory, fund accounting, and volunteers into one source of truth — and turns that truth outward through a public transparency layer that lets donors, funders, and the community verify impact in real time. Because when everything is connected, leaders get their time back; and when everything is visible, trust becomes the engine of funding. Kindela makes the work connected, and the impact visible.
 
 ---
 
@@ -38,7 +38,7 @@ Mission-driven nonprofits run on a patchwork: a point-of-sale system over here, 
 
 #### Primary Colors
 
-- **Gradient Base:** The Civora gradient runs from a deep, trustworthy indigo through civic teal into a confident, optimistic amber — representing the journey from many disconnected inputs into one clear, connected view. It is used on hero sections, primary CTAs, the logo mark, and brand moments.
+- **Gradient Base:** The Kindela gradient runs from a deep, trustworthy indigo through civic teal into a confident, optimistic amber — representing the journey from many disconnected inputs into one clear, connected view. It is used on hero sections, primary CTAs, the logo mark, and brand moments.
 
 ```css
 background: linear-gradient(135deg, #141B4D 0%, #243A8E 24%, #1E6FB0 46%, #2A9D8F 64%, #4FB59A 80%, #F2B14C 100%);
@@ -51,7 +51,7 @@ background: linear-gradient(135deg, #141B4D 0%, #243A8E 24%, #1E6FB0 46%, #2A9D8
 | `#141B4D` | Deep Indigo | Trust |
 | `#243A8E` | Civic Blue | Authority |
 | `#1E6FB0` | Signal Blue | Connection |
-| `#2A9D8F` | Civora Teal | Clarity |
+| `#2A9D8F` | Kindela Teal | Clarity |
 | `#4FB59A` | Bright Teal | Vitality |
 | `#F2B14C` | Beacon Amber | Optimism |
 
@@ -80,8 +80,8 @@ A neutral set for UI structure, text, and surfaces.
 
 #### Font Family
 
-- **Primary Font — Inter (sans-serif):** Chosen for exceptional on-screen legibility at small sizes, a neutral-yet-modern character, and a broad weight range. As a data-dense operating system (ledgers, donor records, inventory tables, grant pipelines), Civora needs a workhorse UI face that stays crisp in dense views — Inter's core strength. Its contemporary feel reinforces the "modern platform, not legacy software" positioning.
-- **Secondary Font — Space Grotesk (geometric sans display):** Reserved for headlines, the wordmark, and brand moments. Its slightly technical, geometric forms give Civora a confident, modern, platform-grade personality — more contemporary and "software company" than a serif, matching the enterprise/all-in-one register the brand is built on. *(Where a more editorial tone is wanted for long-form content like the public impact report, DM Serif Display may be used as a tertiary accent face.)*
+- **Primary Font — Inter (sans-serif):** Chosen for exceptional on-screen legibility at small sizes, a neutral-yet-modern character, and a broad weight range. As a data-dense operating system (ledgers, donor records, inventory tables, grant pipelines), Kindela needs a workhorse UI face that stays crisp in dense views — Inter's core strength. Its contemporary feel reinforces the "modern platform, not legacy software" positioning.
+- **Secondary Font — Space Grotesk (geometric sans display):** Reserved for headlines, the wordmark, and brand moments. Its slightly technical, geometric forms give Kindela a confident, modern, platform-grade personality — more contemporary and "software company" than a serif, matching the enterprise/all-in-one register the brand is built on. *(Where a more editorial tone is wanted for long-form content like the public impact report, DM Serif Display may be used as a tertiary accent face.)*
 
 #### Font Sizes
 
@@ -129,7 +129,7 @@ Categories forming the application's structural backbone:
 Animated components that reinforce the "connected and visible" theme:
 
 1. **Number Ticker** — animated count-up for live revenue, dollars granted, and goods distributed on the public transparency page.
-2. **Animated Gradient Hero** — the Civora gradient subtly shifting on the marketing and public-trust landing pages.
+2. **Animated Gradient Hero** — the Kindela gradient subtly shifting on the marketing and public-trust landing pages.
 3. **Bento Grid** — animated modular dashboard summary cards that reveal on scroll.
 4. **Animated Beam / Connection Lines** — the signature motion: nodes (donors, grants, goods, accounts) connecting into one hub, visualizing both the operating-system concept and the donation-to-destination flow.
 5. **Scroll-Triggered Reveal** — impact metrics and donor stories animating into view on the transparency report.
@@ -148,7 +148,7 @@ Supplementary categories for polish and interaction texture:
 
 #### Custom Components
 
-Essential bespoke components driven by Civora's core function:
+Essential bespoke components driven by Kindela's core function:
 
 1. **Donation-to-Destination Tracer** — a visual flow component following each donated good from intake through to resale sale *or* transfer to a partner nonprofit, with a verifiable audit trail.
 2. **Public Transparency Dashboard** — an embeddable, public-facing widget showing real-time revenue, grants written (inbound/outbound), and goods distributed, designed to be shared and verified by donors and the press.
@@ -158,7 +158,7 @@ Essential bespoke components driven by Civora's core function:
 ### Micro-Interactions
 
 1. **Button Hover** — primary buttons shift along the gradient toward Signal Blue and lift 1px with a soft shadow (150ms ease-out).
-2. **Form Focus** — input borders animate from Slate Gray to Civora Teal with a faint glow.
+2. **Form Focus** — input borders animate from Slate Gray to Kindela Teal with a faint glow.
 3. **Loading States** — a gentle gradient shimmer skeleton (never a harsh spinner) while data loads.
 4. **Success Actions** — a checkmark draws itself in Success green with a brief, restrained pulse when a record saves or a reconciliation balances.
 5. **Navigation** — active module indicator slides smoothly along the sidebar (200ms).
@@ -185,12 +185,12 @@ Essential bespoke components driven by Civora's core function:
 - **Color Contrast (WCAG AA):** All text meets ≥4.5:1 (≥3:1 for large text); functional colors verified against their backgrounds.
 - **Keyboard Navigation:** Every interactive element fully operable via keyboard with a logical tab order.
 - **Screen Reader Support (ARIA):** Semantic landmarks, ARIA labels on charts/widgets, and descriptive table headers for financial and donor data.
-- **Visible Focus Indicators:** A clear 2px Civora Teal focus ring on all focusable elements.
+- **Visible Focus Indicators:** A clear 2px Kindela Teal focus ring on all focusable elements.
 - **Respect for Reduced Motion:** All gradient shifts, count-ups, connection beams, and reveals honor `prefers-reduced-motion`, falling back to instant states.
 
 ### Dark/Light Mode
 
-Both modes are fully supported, implemented via **DaisyUI themes**. Civora detects the user's system preference automatically and provides a user-selectable toggle, so operators working late can switch to a low-glare dark theme without losing the brand's identity.
+Both modes are fully supported, implemented via **DaisyUI themes**. Kindela detects the user's system preference automatically and provides a user-selectable toggle, so operators working late can switch to a low-glare dark theme without losing the brand's identity.
 
 ---
 
@@ -201,7 +201,7 @@ Both modes are fully supported, implemented via **DaisyUI themes**. Civora detec
 
 - **Tailwind CSS** — utility-first foundation.
 - **DaisyUI** — component theming and dark/light mode management.
-- **Custom Utilities** — *(placeholder)* brand-specific utilities for the Civora gradient, connection-beam styling, transparency-widget styling, and fund-accounting table treatments.
+- **Custom Utilities** — *(placeholder)* brand-specific utilities for the Kindela gradient, connection-beam styling, transparency-widget styling, and fund-accounting table treatments.
 
 ### Animation Library
 
@@ -211,7 +211,7 @@ Both modes are fully supported, implemented via **DaisyUI themes**. Civora detec
 ### Icon System
 
 - **Heroicons** — the standard, comprehensive base icon set.
-- **Custom SVGs** — for domain-specific concepts (donated-goods intake, partner-org transfer, fund types, transparency seal, the Civora connection mark).
+- **Custom SVGs** — for domain-specific concepts (donated-goods intake, partner-org transfer, fund types, transparency seal, the Kindela connection mark).
 
 ### Asset Management
 
@@ -239,7 +239,7 @@ Both modes are fully supported, implemented via **DaisyUI themes**. Civora detec
       "deepIndigo": "#141B4D",
       "civicBlue": "#243A8E",
       "signalBlue": "#1E6FB0",
-      "civoraTeal": "#2A9D8F",
+      "kindelaTeal": "#2A9D8F",
       "brightTeal": "#4FB59A",
       "beaconAmber": "#F2B14C"
     },

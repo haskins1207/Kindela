@@ -102,16 +102,16 @@ export default function VideoDemo() {
       <div className="container container-narrow">
         <Reveal className="section-head">
           <span className="eyebrow">Not ready to talk to a human yet?</span>
-          <h2>See Civora in action — in under four minutes.</h2>
+          <h2>See Kindela in action — in under four minutes.</h2>
           <p>A calm, self-serve tour of the three pains becoming three reliefs. No form, no sales call.</p>
         </Reveal>
 
         <Reveal className="vd-player">
           <div className={`vd-frame ${playing || ended ? 'is-playing' : ''}`}>
             {!playing && !ended ? (
-              <button className="vd-facade" onClick={() => startAt(0)} aria-label="Play the Civora product tour">
+              <button className="vd-facade" onClick={() => startAt(0)} aria-label="Play the Kindela product tour">
                 <span className="vd-facade__bg" aria-hidden="true">
-                  <span className="vd-facade__chrome"><i /><i /><i /><em>Civora — product tour</em></span>
+                  <span className="vd-facade__chrome"><i /><i /><i /><em>Kindela — product tour</em></span>
                   <span className="vd-facade__glow" />
                 </span>
                 <span className="vd-play">

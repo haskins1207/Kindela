@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import Reveal from './Reveal'
 
 const calculateSavings = (monthlySpend, adminHours, staffCount, hourlyCost) => {
-  // Civora consolidates tools; assume ~55% reduction in tool spend
+  // Kindela consolidates tools; assume ~55% reduction in tool spend
   const annualToolSavings = monthlySpend * 12 * 0.55
   // ~60% of manual admin time recovered via single source of truth
   const recoveredHours = adminHours * 0.6 * 52

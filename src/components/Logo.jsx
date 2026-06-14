@@ -1,4 +1,4 @@
-// Civora mark: the gradient connection mark + Space Grotesk wordmark.
+// Kindela mark: the gradient connection mark + Space Grotesk wordmark.
 export default function Logo({ light = false }) {
   return (
     <span className={`logo ${light ? 'logo--light' : ''}`}>
@@ -23,7 +23,7 @@ export default function Logo({ light = false }) {
           <path d="M10 10 16 16M22 10 16 16M10 22 16 16" />
         </g>
       </svg>
-      <span className="logo__word">Civora</span>
+      <span className="logo__word">Kindela</span>
     </span>
   )
 }

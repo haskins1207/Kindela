@@ -1,8 +1,8 @@
-# Civora — Landing Page
+# Kindela — Landing Page
 
 > The operating system for mission-driven nonprofits. *Every donation, grant, and good — connected and visible.*
 
-A frontend-only marketing landing page for **Civora**, built with **Vite + React 19** and plain CSS (brand-token design system). Deploys as a static site to **Netlify**.
+A frontend-only marketing landing page for **Kindela**, built with **Vite + React 19** and plain CSS (brand-token design system). Deploys as a static site to **Netlify**.
 
 ## Tech stack
 - **Vite 8** + **React 19** (single-page, anchor-scroll — no client-side router)
@@ -34,12 +34,12 @@ Strategy and brand docs live in [`docs/`](./docs):
 
 | Doc | What it is |
 |-----|-----------|
-| `civora-brand-design-system.md` | Brand identity, palette, type, components |
-| `civora-landing-page-prd.md` | Landing-page product requirements |
-| `civora-problem-aware-avatar.md` | Target customer (Kari) — problem-aware stage |
-| `civora-app.md` | Dashboard app prototype (reference) |
-| `civora-competitive-landscape.md` | Market research: ~20 products, capability matrix |
-| `civora-swot.md` | SWOT analysis |
-| `civora-differentiators.md` | Positioning + ranked differentiators (copy-ready) |
+| `kindela-brand-design-system.md` | Brand identity, palette, type, components |
+| `kindela-landing-page-prd.md` | Landing-page product requirements |
+| `kindela-problem-aware-avatar.md` | Target customer (Kari) — problem-aware stage |
+| `kindela-app.md` | Dashboard app prototype (reference) |
+| `kindela-competitive-landscape.md` | Market research: ~20 products, capability matrix |
+| `kindela-swot.md` | SWOT analysis |
+| `kindela-differentiators.md` | Positioning + ranked differentiators (copy-ready) |
 
 Canonical product-marketing context: [`.agents/product-marketing.md`](./.agents/product-marketing.md).

@@ -1,14 +1,14 @@
-# Civora — Application Prototype (Source Code)
+# Kindela — Application Prototype (Source Code)
 
-> *Civora — the operating system for mission-driven nonprofits. Every donation, grant, and good — connected and visible.*
+> *Kindela — the operating system for mission-driven nonprofits. Every donation, grant, and good — connected and visible.*
 
-This file contains the full React source for the Civora dashboard prototype, presented as a documented Markdown file for reading and sharing.
+This file contains the full React source for the Kindela dashboard prototype, presented as a documented Markdown file for reading and sharing.
 
 **Note:** This is working React/JSX code. To run it (rather than read it), copy the code block below into a `.jsx` file in a React project, or into a React-capable artifact/sandbox. Pasted into a plain Markdown viewer it will display as code, not run.
 
 ## Overview
 
-The prototype demonstrates the Civora design system in a functional dashboard with seven modules:
+The prototype demonstrates the Kindela design system in a functional dashboard with seven modules:
 
 - **Dashboard** — greeting, live count-up stat cards, the Donation-to-Destination Tracer, and an attention panel.
 - **Donors** — gifts (cash and in-kind) with tax-acknowledgment status.
@@ -18,7 +18,7 @@ The prototype demonstrates the Civora design system in a functional dashboard wi
 - **Volunteers** — roles and logged hours.
 - **Public Trust** — the public-facing transparency report with traceable donation flow.
 
-It uses the Civora palette (deep indigo to beacon amber), Inter for UI and Space Grotesk for headlines, animated connection beams, count-up numbers, responsive mobile navigation, keyboard focus states, and respects `prefers-reduced-motion`.
+It uses the Kindela palette (deep indigo to beacon amber), Inter for UI and Space Grotesk for headlines, animated connection beams, count-up numbers, responsive mobile navigation, keyboard focus states, and respects `prefers-reduced-motion`.
 
 ## Source
 
@@ -26,7 +26,7 @@ It uses the Civora palette (deep indigo to beacon amber), Inter for UI and Space
 import React, { useState, useEffect, useRef } from "react";
 
 // ─────────────────────────────────────────────────────────────
-// CIVORA — The operating system for mission-driven nonprofits
+// KINDELA — The operating system for mission-driven nonprofits
 // Every donation, grant, and good — connected and visible.
 // Brand: civic gradient (deep indigo → beacon amber), Inter + Space Grotesk
 // ─────────────────────────────────────────────────────────────
@@ -213,7 +213,7 @@ function Dashboard() {
         <StatCard label="Goods distributed" value={504} sub="to 2 partner orgs" accent={C.harbor} />
         <StatCard label="Active volunteers" value={37} sub="412 hours this month" accent={C.gold} />
       </div>
-      <div className="civora-grid-2" style={{ display: "grid", gridTemplateColumns: "1.3fr 1fr", gap: 16 }}>
+      <div className="kindela-grid-2" style={{ display: "grid", gridTemplateColumns: "1.3fr 1fr", gap: 16 }}>
         <Tracer />
         <div style={{ background: "#fff", borderRadius: 16, padding: 24, border: "1px solid #E4EAF0" }}>
           <div style={{ fontSize: 13, fontWeight: 700, color: C.text, marginBottom: 16 }}>Needs your attention</div>
@@ -307,7 +307,7 @@ function Accounting() {
       <p style={{ color: C.gray, fontSize: 14.5, margin: "0 0 22px" }}>
         Restricted vs. unrestricted, one click from a board deck or a 990.
       </p>
-      <div className="civora-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
+      <div className="kindela-grid-2" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 16 }}>
         <StatCard label="Unrestricted funds" value={186200} prefix="$" sub="Resale + unrestricted gifts" accent={C.amber} />
         <StatCard label="Restricted funds" value={97300} prefix="$" sub="Grant-designated" accent={C.harbor} />
       </div>
@@ -434,7 +434,7 @@ function Table({ cols, rows }) {
 }
 
 // ── App shell ──────────────────────────────────────────────────
-export default function CivoraApp() {
+export default function KindelaApp() {
   const [active, setActive] = useState("dashboard");
   const [navOpen, setNavOpen] = useState(false);
 
@@ -453,26 +453,26 @@ export default function CivoraApp() {
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
         @keyframes beam { 0% { transform: scaleX(0);} 50%{transform:scaleX(1);} 100%{transform:scaleX(0); transform-origin:right;} }
         @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
-        .civora-nav-btn:hover { background: rgba(255,255,255,0.08) !important; }
-        .civora-nav-btn:focus-visible { outline: 2px solid ${C.gold}; outline-offset: 2px; }
+        .kindela-nav-btn:hover { background: rgba(255,255,255,0.08) !important; }
+        .kindela-nav-btn:focus-visible { outline: 2px solid ${C.gold}; outline-offset: 2px; }
         @media (max-width: 860px) {
-          .civora-side { position: fixed; z-index: 50; height: 100%; transform: translateX(-100%); transition: transform .25s ease; }
-          .civora-side.open { transform: translateX(0); }
-          .civora-burger { display: flex !important; }
-          .civora-main { padding: 76px 18px 40px !important; }
-          .civora-grid-2 { grid-template-columns: 1fr !important; }
+          .kindela-side { position: fixed; z-index: 50; height: 100%; transform: translateX(-100%); transition: transform .25s ease; }
+          .kindela-side.open { transform: translateX(0); }
+          .kindela-burger { display: flex !important; }
+          .kindela-main { padding: 76px 18px 40px !important; }
+          .kindela-grid-2 { grid-template-columns: 1fr !important; }
         }
       `}</style>
 
       {/* Sidebar */}
-      <aside className={`civora-side ${navOpen ? "open" : ""}`} style={{
+      <aside className={`kindela-side ${navOpen ? "open" : ""}`} style={{
         width: 230, background: C.midnight, color: "#fff", padding: "26px 16px",
         flexShrink: 0, display: "flex", flexDirection: "column",
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "0 8px 24px" }}>
           <div style={{ width: 34, height: 34, borderRadius: 9, background: GRADIENT }} />
           <div>
-            <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, lineHeight: 1, fontWeight: 700 }}>Civora</div>
+            <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, lineHeight: 1, fontWeight: 700 }}>Kindela</div>
             <div style={{ fontSize: 10, opacity: 0.6, letterSpacing: 1, textTransform: "uppercase" }}>Connected &amp; visible</div>
           </div>
         </div>
@@ -480,7 +480,7 @@ export default function CivoraApp() {
           {MODULES.map((m) => {
             const on = active === m.id;
             return (
-              <button key={m.id} className="civora-nav-btn"
+              <button key={m.id} className="kindela-nav-btn"
                 onClick={() => { setActive(m.id); setNavOpen(false); }}
                 style={{
                   display: "flex", alignItems: "center", gap: 12, padding: "11px 12px",
@@ -503,7 +503,7 @@ export default function CivoraApp() {
       </aside>
 
       {/* Burger (mobile) */}
-      <button className="civora-burger" onClick={() => setNavOpen((o) => !o)} aria-label="Toggle navigation"
+      <button className="kindela-burger" onClick={() => setNavOpen((o) => !o)} aria-label="Toggle navigation"
         style={{
           display: "none", position: "fixed", top: 16, left: 16, zIndex: 60,
           width: 44, height: 44, borderRadius: 10, border: "none", background: C.midnight,
@@ -511,7 +511,7 @@ export default function CivoraApp() {
         }}>≡</button>
 
       {/* Main */}
-      <main className="civora-main" style={{ flex: 1, padding: "34px 40px 56px", maxWidth: 1080 }}>
+      <main className="kindela-main" style={{ flex: 1, padding: "34px 40px 56px", maxWidth: 1080 }}>
         {views[active]}
       </main>
     </div>

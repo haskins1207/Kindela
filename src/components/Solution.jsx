@@ -16,7 +16,7 @@ export default function Solution() {
             so you carried the whole picture in your head, alone.
           </p>
           <p>
-            Civora connects every river — donations in, goods out, dollars tracked, hours logged —
+            Kindela connects every river — donations in, goods out, dollars tracked, hours logged —
             so entering something once means it’s right everywhere.
           </p>
           <p>
@@ -28,7 +28,7 @@ export default function Solution() {
             <Icon name="shield" size={22} />
             <p>
               <strong>No other platform connects all of it.</strong> Unlike a donor CRM, a retail POS, or
-              enterprise software priced for huge foundations, Civora speaks nonprofit — in-kind gifts,
+              enterprise software priced for huge foundations, Kindela speaks nonprofit — in-kind gifts,
               restricted vs. unrestricted funds, outbound granting, and (when you need it) routing donated
               goods to partner orgs — then proves it to the public, live.
             </p>
@@ -50,7 +50,7 @@ export default function Solution() {
             <div className="ba__arrow"><Icon name="arrow" size={26} /></div>
 
             <div className="ba__after">
-              <span className="ba__tag ba__tag--after">With Civora</span>
+              <span className="ba__tag ba__tag--after">With Kindela</span>
               <div className="ba__hub">
                 <span className="ba__hub-core"><Icon name="link" size={26} stroke="#fff" /></span>
               </div>
