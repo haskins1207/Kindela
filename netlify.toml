@@ -1,0 +1,13 @@
+# Netlify deployment configuration for the Civora landing page (Vite + React SPA)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Single-page fallback — harmless for this anchor-scroll site, future-proofs client routing.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+dev.log
+
+# Local Claude Code preview config (not needed for deploy)
+.claude/

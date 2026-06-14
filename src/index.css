@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ===== Civora Design Tokens (from civora-brand-design-system.md) ===== */
+:root {
+  /* Primary palette (extracted from the gradient) */
+  --deep-indigo: #141B4D; /* Trust */
+  --civic-blue: #243A8E;  /* Authority */
+  --signal-blue: #1E6FB0; /* Connection */
+  --civora-teal: #2A9D8F; /* Clarity */
+  --bright-teal: #4FB59A; /* Vitality */
+  --beacon-amber: #F2B14C;/* Optimism */
+
+  /* Brand gradient: deep indigo -> civic teal -> beacon amber */
+  --brand-gradient: linear-gradient(135deg, #141B4D 0%, #243A8E 24%, #1E6FB0 46%, #2A9D8F 64%, #4FB59A 80%, #F2B14C 100%);
+
+  /* Neutrals (light) */
+  --ink: #10162E;
+  --slate: #586079;
+  --cloud: #F3F5FA;     /* recessed surface / section tint (themed) */
+  --surface: #FFFFFF;   /* raised card surface (themed) */
+  --bg: #FFFFFF;        /* page background (themed) */
+  --white: #FFFFFF;     /* literal white — NEVER themed (text on color, light buttons) */
+  --border: #E4EAF0;
+  --muted-surface: #ECEFF4; /* the "messy old way" before-panel (themed) */
+
+  /* Functional */
+  --success: #2E9E5B;
+  --warning: #E8A317;
+  --error: #D64545;
+  --info: #2D7DD2;
+
+  /* Type */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-full: 9999px;
+
+  /* Layout */
+  --container: 1200px;
+  --container-wide: 1400px;
+  --container-narrow: 900px;
+
+  /* Shadow */
+  --shadow-card: 0 2px 8px rgba(11, 42, 74, 0.08);
+  --shadow-lift: 0 18px 40px rgba(20, 27, 77, 0.14);
+
+  color-scheme: light;
+}
+
+/* ===== Dark theme ===== */
+:root[data-theme="dark"] {
+  --ink: #EEF1F6;
+  --slate: #99A2B2;
+  --cloud: #141823;     /* recessed: darkest layer between bg and cards */
+  --surface: #1B1F2B;   /* raised cards */
+  --bg: #0E1016;        /* page background */
+  --border: #2A3040;
+  --muted-surface: #181C26;
+  --shadow-card: 0 2px 10px rgba(0, 0, 0, 0.45);
+  --shadow-lift: 0 20px 46px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  line-height: 1.15;
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+p { margin: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ===== Shared primitives ===== */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+
+.container-wide { max-width: var(--container-wide); }
+.container-narrow { max-width: var(--container-narrow); }
+
+/* Screen-reader-only (visually hidden but accessible) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--signal-blue);
+}
+
+.section {
+  padding-block: clamp(64px, 9vw, 120px);
+}
+
+.section-head {
+  max-width: 720px;
+  margin: 0 auto 56px;
+  text-align: center;
+}
+
+.section-head h2 {
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 14px;
+}
+
+.section-head p {
+  margin-top: 16px;
+  font-size: 1.125rem;
+  color: var(--slate);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: var(--radius-md);
+  min-height: 48px;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--brand-gradient);
+  background-size: 160% 160%;
+  background-position: 0% 50%;
+  color: var(--white);
+  box-shadow: 0 6px 18px rgba(30, 111, 176, 0.28);
+}
+.btn-primary:hover {
+  background-position: 100% 50%;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 26px rgba(20, 27, 77, 0.32);
+}
+.btn-primary:active { transform: scale(0.98); }
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--civora-teal);
+  color: var(--civora-teal);
+}
+.btn-secondary:hover { background: rgba(42, 157, 143, 0.1); }
+
+.btn-ghost {
+  color: var(--signal-blue);
+  padding-inline: 8px;
+}
+.btn-ghost:hover { text-decoration: underline; }
+
+.btn-light {
+  background: var(--white);
+  color: var(--deep-indigo);
+}
+.btn-light:hover { transform: translateY(-1px); box-shadow: var(--shadow-lift); }
+
+.btn-block { width: 100%; }
+
+:focus-visible {
+  outline: 2px solid var(--civora-teal);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Gradient text accent */
+.gradient-text {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Respect reduced motion globally */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
