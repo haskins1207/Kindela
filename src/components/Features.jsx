@@ -142,7 +142,11 @@ export default function Features() {
 
         <div className="features__list">
           {FEATURES.map((f, i) => (
-            <Reveal key={f.name} className={`feature ${i % 2 ? 'feature--rev' : ''}`}>
+            <Reveal
+              key={f.name}
+              id={f.visual === 'transparency' ? 'transparency' : undefined}
+              className={`feature ${i % 2 ? 'feature--rev' : ''}`}
+            >
               <div className="feature__text">
                 <span className="feature__icon"><Icon name={f.icon} size={26} /></span>
                 <h3>{f.name}</h3>

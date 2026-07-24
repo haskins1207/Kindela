@@ -21,7 +21,8 @@ export default function Solution() {
           </p>
           <p>
             Walk into the board meeting prepared. Hand a funder a clean report in seconds.
-            Stop carrying the stress home.
+            The stuffed rabbit with one ear that came in last month? You can show exactly
+            where it went — and prove it. Stop carrying the stress home.
           </p>
 
           <div className="uvp">

@@ -5,11 +5,11 @@ export default function FinalCTA() {
     <section className="final" id="walkthrough">
       <div className="container container-narrow">
         <Reveal className="final__inner">
-          <h2 className="final__title">Get your time back. Give it to the mission.</h2>
+          <h2 className="final__title">Connect everything. Show everyone.</h2>
           <p className="final__sub">
-            Join the mission-driven teams using Kindela to connect everything, show everyone, and pour
-            their hours back into the children they serve. Start free — no credit card, and we’ll help
-            you move your data.
+            Join the mission-driven teams using Kindela to get their time back, prove their impact, and
+            pour their hours back into the children they serve. Start free — no credit card, and we’ll
+            help you move your data.
           </p>
           <div className="final__ctas">
             <a className="btn btn-light" href="#walkthrough">Start Your 30-Day Trial</a>

@@ -1748,14 +1748,14 @@
   .intsec__inner { grid-template-columns: 1fr; }
   .intsec__security { padding-left: 0; border-left: none; padding-top: 16px; border-top: 1px solid var(--border); }
   .compare__cards { grid-template-columns: repeat(2, 1fr); }
+  .pricing__grid { grid-template-columns: 1fr; }
+  .tier--featured { transform: none; }
 }
 
 @media (max-width: 767px) {
   .problem__grid { grid-template-columns: 1fr; }
   .proof__grid { grid-template-columns: 1fr; }
   .proof__stats { grid-template-columns: repeat(2, 1fr); }
-  .pricing__grid { grid-template-columns: 1fr; }
-  .tier--featured { transform: none; }
   .calc__row { grid-template-columns: 1fr; }
   .dash__stats { grid-template-columns: 1fr; }
   .footer__cols { grid-template-columns: repeat(2, 1fr); }

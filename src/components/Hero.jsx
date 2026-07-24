@@ -20,13 +20,12 @@ export default function Hero() {
           </span>
 
           <h1 className="hero__title">
-            Put your time <span className="gradient-text">where it really matters</span> — the mission, not the spreadsheets.
+            Stop running your mission on <span className="gradient-text">six systems that don&rsquo;t talk.</span>
           </h1>
 
           <p className="hero__sub">
-            One connected source of truth for your donors, grants, donated goods, books, and volunteers —
-            so you stop re-keying data at 11 p.m. and can show anyone exactly where every dollar and every
-            donated good went.
+            Kindela unifies donors, grants, donated-goods inventory, accounting, and volunteers in one
+            place — and shows the public exactly where every dollar and every coat goes.
           </p>
 
           <div className="hero__ctas">
